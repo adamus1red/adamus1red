@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@main
+      - uses: lowlighter/metrics@a53a5853a99509233cdef4b056411facc481b833 # main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_isocalendar: yes
@@ -23,7 +23,7 @@ jobs:
           plugin_calendar: yes
           plugin_traffic: yes
           
-      - uses: lowlighter/metrics@main
+      - uses: lowlighter/metrics@a53a5853a99509233cdef4b056411facc481b833 # main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           template: terminal
